@@ -11,7 +11,13 @@
 
    For the website I used HTML, Python, CSS, Jinja, JavaScript, a database and a number of Bootstrap features.
 
-   The database stores users' name, university, the country where they're studying, rating of that country and additional comments about theire experience.
+   The database stores users' name, university, the country where they're studying, rating of that country and additional comments about theire experience. When submiting a review you must fill in all blanks. This page also has a star rating feature.
+
+   Another feature of my website are the icons on the tab. Every country has its flag as icon and for the other pages is an ancient paper (this represents the idea of university the best :)).
+
+   When displaying the reviews, I decided to lay them out in a table, so it is easy for the user to see all the information at once.
+
+   *To return to homepage from every other page, click on the "StudyAbroad" icon in the bar.
 
    When creating the website, I found sorting the reviews by country the most challenging. This part took me the longest, as I tried in multiple ways. In the end, after much trial and error, I decided to create a page for each country-filter, where only reviews about that specific country appear.
 
@@ -21,4 +27,5 @@
     - Log in page for students who want to leave a review
     - Contact page where users can leave messages with questions about studying abroad
     - Q&A page with the most asked questions about studying abroad
+    - Search bar
 
