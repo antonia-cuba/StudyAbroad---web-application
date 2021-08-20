@@ -5,11 +5,11 @@
 
    My Final Project for CS50 consists of a website, StudyAbroad, which is designed to help students choose where to study abroad.
 
-   For now, it consists of 5 countries, each having their own page where you can find information about culture, tuition fees, part-time job opportunities, language courses, top 5 universities and more about each country.
+   For now, it consists of 5 countries, each having their own page where you can find information about culture, tuition fees, part-time job opportunities, language courses, top 5 universities and more about each country. The 'top 5 universities' sections contain the name of the universities and by clicking them, you are redirected to that university's official website. Every section is separated, displayed in a colorfull box. This way, users can find information more easily.
 
    There is also a reviews page, where people can rate and leave a review about the chosen country.
 
-   For the website I used HTML, Python, CSS, Jinja, JavaScript, a database and a number of Bootstrap features.
+   For the website I used HTML, Python, CSS, Jinja, JavaScript, a database and a number of Bootstrap features for design purposes.
 
    The database stores users' name, university, the country where they're studying, rating of that country and additional comments about theire experience. Please don't leave any field blank as the website won't let you submit a review with any blank field. This page also has a star rating feature. Once you hit the submit button, you are redirected to the page where you can see and filter all the reviews, including the one you've just added.
 
@@ -29,6 +29,6 @@
     - Q&A page with the most asked questions about studying abroad
     - Search bar
 
-    This is all about my website, hope you enjoy playing around with it!
+   This is all about my website, hope you enjoy playing around with it!
 
 
