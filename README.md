@@ -5,7 +5,7 @@
 
    My Final Project for CS50 consists of a website, StudyAbroad, which is designed to help students choose where to study abroad.
 
-   For now, it consists of 5 countries, each having their own page where you can find information about culture, tuition fees, part-time job opportunities, language courses, top 5 universities and more about each country. The 'top 5 universities' sections contain the name of the universities and by clicking them, you are redirected to that university's official website. Every section is separated, displayed in a colorfull box. This way, users can find information more easily.
+   For now, it consists of 5 countries, each having their own page where you can find information about culture, tuition fees, part-time job opportunities, language courses, top 5 universities and more about each country. The 'top 5 universities' sections contain the name of the universities and by clicking them, you are redirected to that university's official website. Every section is separated, displayed in a colorful box. This way, users can find information more easily.
 
    There is also a reviews page, where people can rate and leave a review about the chosen country.
 
