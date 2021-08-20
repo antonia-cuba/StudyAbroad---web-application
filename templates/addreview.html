@@ -1,0 +1,59 @@
+s{% extends "layout.html" %}
+
+
+{% block title %}
+    Reviews
+{% endblock %}
+
+{% block icon %}
+    /static/favicon.ico
+{% endblock %}
+
+{% block main %}
+<h3>Write a review and help others make their decision!</h3>
+<br> </br>
+
+<form action="/addreview" method="post">
+    <div class="input-group">
+      <span class="input-group-text">Name and University</span>
+      <input autocomplete="off" autofocus type="text" name="name" class="form-control">
+      <input autocomplete="off" autofocus type="text" name="university" class="form-control">
+    </div>
+    <p> </p>
+
+    <select name="country" class="custom-select inline" style="width:250px;">
+      <option selected disabled value="">Choose country...</option>
+      <option value="Italy">Italy</option>
+      <option value="Spain">Spain</option>
+      <option value="Sweden">Sweden</option>
+      <option value="Denmark">Denmark</option>
+      <option value="Netherlands">Netherlands</option>
+    </select>
+
+
+    <div class="rate inline" style="width:100;">
+      <p class="inline p">Rate the country: </p>
+      <input class="inline pp" type="radio" id="star5" name="rate" value="5" />
+      <label class="inline pp" for="star5" title="text">5 stars</label>
+      <input class="inline pp" type="radio" id="star4" name="rate" value="4" />
+      <label class="inline pp" for="star4" title="text">4 stars</label>
+      <input class="inline pp" type="radio" id="star3" name="rate" value="3" />
+      <label class="inline pp" for="star3" title="text">3 stars</label>
+      <input class="inline pp" type="radio" id="star2" name="rate" value="2" />
+      <label class="inline pp" for="star2" title="text">2 stars</label>
+      <input class="inline pp" type="radio" id="star1" name="rate" value="1" />
+      <label class="inline pp" for="star1" title="text">1 star</label>
+    </div>
+    <p> </p>
+
+    <div class="input-group">
+      <span class="input-group-text">Comments</span>
+      <textarea class="form-control" autocomplete="off" name="comment"></textarea>
+    </div>
+    <p> </p>
+
+    <button class="btn btn-primary blue" type="submit">Submit</button>
+
+</form>
+
+{% endblock %}
