@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block icon %}
+    /static/favicon.ico
+{% endblock %}
+
+{% block main %}
+<h2>Want to study abroad but don't know which country to choose?</h2>
+<br> </br>
+<h3>Pick a country from below and explore the opportunities it has to offer!</h3>
+
+<div class="column">
+  <a class="white" href="/spain">
+  <img src="https://cdn.cnn.com/cnnnext/dam/assets/170706113411-spain.jpg" class="rounded" alt="Spain" width="250" height="200">
+  <div class="centered font-weight-bold">Spain</div>
+  </a>
+</div>
+
+<div class="column">
+  <a class="white" href="/italy">
+  <img src="https://rccl-h.assetsadobe.com/is/image/content/dam/royal/content/destinations/italy/italy-amalfi-coast.jpg?$750x667$" class="rounded" alt="Italy" width="250" height="200">
+  <div class="centered font-weight-bold">Italy</div>
+  </a>
+</div>
+
+<div class="column">
+  <a class="white" href="/denmark">
+  <img src="https://iflr.com/Media/images/iflr/1-cities-2/Copenhagen.jpg" class="rounded float-end" alt="Denmark" width="250" height="200">
+  <div class="font-weight-bold small">Denmark</div>
+  </a>
+</div>
+
+
+<div class="row">
+  <a class="white" href="/sweden">
+  <img src="https://mk0scandificati6sq08.kinstacdn.com/wp-content/uploads/2020/09/What-Is-Sweden-Known-For-1-scaled.jpg" class="rounded" alt="Sweden" width="250" height="200">
+  <div class="centered font-weight-bold">Sweden</div>
+  </a>
+</div>
+
+<div class="row">
+  <a class="white" href="/netherlands">
+  <img src="https://lp-cms-production.imgix.net/2020-11/shutterstockRF_189863267.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850" class="rounded" alt="The Netherlands" width="250" height="200">
+  <div class="font-weight-bold smaller">Netherlands</div>
+  </a>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  More countries to be added soon!
+</div>
+
+{% endblock %}
