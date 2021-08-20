@@ -11,7 +11,7 @@
 
    For the website I used HTML, Python, CSS, Jinja, JavaScript, a database and a number of Bootstrap features.
 
-   The database stores users' name, university, the country where they're studying, rating of that country and additional comments about theire experience. When submiting a review you must fill in all blanks. This page also has a star rating feature.
+   The database stores users' name, university, the country where they're studying, rating of that country and additional comments about theire experience. Please don't leave any field blank as the website won't let you submit a review with any blank field. This page also has a star rating feature. Once you hit the submit button, you are redirected to the page where you can see and filter all the reviews, including the one you've just added.
 
    Another feature of my website are the icons on the tab. Every country has its flag as icon and for the other pages is an ancient paper (this represents the idea of university the best :)).
 
@@ -23,9 +23,12 @@
 
    While working on this project, I feel like I have got a taste of what's like to work in the industry, having the chance to play and implement my own ideas. It was a very rewarding process, seeing the fruits of labor at the end.
 
-## Possible improvments
+   Possible improvments
     - Log in page for students who want to leave a review
     - Contact page where users can leave messages with questions about studying abroad
     - Q&A page with the most asked questions about studying abroad
     - Search bar
+
+    This is all about my website, hope you enjoy playing around with it!
+
 
