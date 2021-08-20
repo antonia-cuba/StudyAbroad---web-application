@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Reviews
+{% endblock %}
+
+{% block icon %}
+    /static/favicon.ico
+{% endblock %}
+
+{% block main %}
+<!-- Control buttons -->
+<div class="myBtnContainer inline">
+  <a href="/rewAll">
+  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  </a>
+  <a href="rewSpain">
+  <button class="btn" onclick="filterSelection('Spain')">Spain</button>
+  </a>
+  <a href="rewItaly">
+  <button class="btn" onclick="filterSelection('Italy')">Italy</button>
+  </a>
+  <a href="rewSweden">
+  <button class="btn" onclick="filterSelection('Sweden')">Sweden</button>
+  </a>
+  <a href="rewDenmark">
+  <button class="btn" onclick="filterSelection('Denmark')">Denmark</button>
+  </a>
+  <a href="rewNetherlands">
+  <button class="btn" onclick="filterSelection('Netherlands')">Netherlands</button>
+  </a>
+</div>
+
+<div class="right inline">
+  <a href="/addreview">
+    <button type="button" class="btn btn-warning d-grid gap-2 d-md-flex justify-content-md-end">Add a review</button>
+  </a>
+</div>
+
+{% endblock %}
