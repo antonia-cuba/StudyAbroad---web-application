@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Reviews
+{% endblock %}
+
+{% block icon %}
+    /static/favicon.ico
+{% endblock %}
+
+{% block main %}
+<!-- Control buttons -->
+<div class="myBtnContainer inline">
+  <a href="/rewAll">
+  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  </a>
+  <a href="rewSpain">
+  <button class="btn" onclick="filterSelection('Spain')">Spain</button>
+  </a>
+  <a href="rewItaly">
+  <button class="btn" onclick="filterSelection('Italy')">Italy</button>
+  </a>
+  <a href="rewSweden">
+  <button class="btn" onclick="filterSelection('Sweden')">Sweden</button>
+  </a>
+  <a href="rewDenmark">
+  <button class="btn" onclick="filterSelection('Denmark')">Denmark</button>
+  </a>
+  <a href="rewNetherlands">
+  <button class="btn" onclick="filterSelection('Netherlands')">Netherlands</button>
+  </a>
+</div>
+
+<div class="right inline">
+  <a href="/addreview">
+    <button type="button" class="btn btn-warning d-grid gap-2 d-md-flex justify-content-md-end">Add a review</button>
+  </a>
+</div>
+
+<div class="section">
+    <table>
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>University</th>
+              <th>Country</th>
+              <th>Country Rating</th>
+              <th>Comments</th>
+          </tr>
+      </thead>
+      <tbody>
+          {% for review in reviews %}
+              {% if review.country == 'Sweden' %}
+          <tr>
+              <td>{{ review.name }}</td>
+              <td>{{ review.university }}</td>
+              <td>{{ review.country }}</td>
+              <td>{{ review.rating }} * <p class="inline" style="color: #ffc700;">★</p></td>
+              <td>{{ review.comment }}</td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+      </tbody>
+    </table>
+    </div>
+      </div>
+    </div>
+
+{% endblock %}
